@@ -332,43 +332,12 @@ h6 { font-size: 16px;}
 }
 
 
-/*.jkl:hover{
-opacity:0.13;
-}*//*.post:hover{
-opacity:0.13;
-}*/
-
-/*.jkl>.button1{opacity: 0;}*/
-
-
 .thumbnail{
 	display: block;
 	width: 100%;
 	height:180px;
 	object-fit: cover;
 }
-/*.thumbnail:hover{
-	opacity: 0.13 ;
-}*/
-/*#all > ul { 
-	    	list-style: none;
-	    	float: left; width: 200px; 
-	    	padding: 0 10px 0 0; 
-	    }
-	    #all a { 
-			text-decoration: none; 
-			display: block; 
-			padding: 10px;
-			background: #900; 
-			border-radius: 20px; 
-			color: white; 
-			text-align: center;
-			margin: 0 0 5px 0; 
-			
-			-webkit-transition: all 0.2s ease;
-			-moz-transition: all 0.2s ease;
-			-o-transition: all 0.2s ease;
-	    }*/
 
 .post-preview{
 	background-color: #fff;
@@ -392,46 +361,6 @@ opacity:0.13;
 .zoom:hover {
   transform: scale(1.1); /* (% of zoom */
   /*opacity: 0.5;*/
-}
-
-.button {
-	cursor: pointer;
-	margin-left: 75px;
-	/*text-decoration: none; 
-			display: block; 
-			padding: 10px;
-			background: #900; 
-			border-radius: 20px; 
-			color: white; 
-			text-align: center;
-			margin: 0 0 5px 0; 
-			
-			-webkit-transition: all 0.2s ease;
-			-moz-transition: all 0.2s ease;
-			-o-transition: all 0.2s ease;*/
-
-}
-
-.button1 {
-	/*opacity: 1;*/
-    position: fixed;
-    margin-top: -50px;
-    margin-left: 100px;
-    background:rgb(11,11,11,1);
-    color:brown;
-    border-color: red;
-    border: 3px solid;
-    transition:width 2s;
-    -moz-transition:width 2s; /* Firefox 4 */
-    -webkit-transition:width 2s; /* Safari and Chrome */
-    -o-transition:width 2s; /* Opera */
-}
-
-.button1:hover{ 
-	/*opacity: 1;*/
-    /*width:20px;*/
-    transform: scale(1.1);
-    background-color:red;
 }
 
 .viewsite{
