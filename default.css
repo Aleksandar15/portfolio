@@ -14,9 +14,14 @@
 
 
 	--buttonColor:#1760e8;
-
-
+  --titleColor: black;
+  --introColor:	#4b5156;
+  --darkmode:	rgb(17, 13, 13);
+  --viewsiteBg: #46b3ad;
+  --viewsiteBgHover: green;
 }
+
+
 
 
 html, body{
@@ -25,9 +30,9 @@ html, body{
 	scroll-behavior: smooth;
 }
 
-body *{
+/* body *{
 	transition: 0.3s;
-}
+} */
 
 
 h1, h2, h3, h4, h5, h6, strong{
@@ -179,58 +184,15 @@ h6 { font-size: 16px;}
 	border:2px solid var(--borderColor);
 }
 
+.darkmode {
+  text-align: center;
+  line-height: 0;
+  color: var(--darkmode);
+}
 
 #theme-options-wrapper{
 	display: flex;
 	justify-content: center;
-}
-
-.theme-dot{
-	height: 30px;
-	width: 30px;
-	background-color: black;
-	border-radius: 50%;
-
-	margin: 5px;
-	border:2px solid var(--themeDotBorder);
-
-	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-
-	cursor: pointer;
-}
-
-
-.theme-dot:hover{
-	border-width: 5px;
-}
-
-
-#light-mode{
-	background-color: #fff;
-}
-
-#blue-mode{
-	background-color: #192734;
-}
-
-#dark-mode {
-  background-color: #000;
-}
-
-#green-mode{
-	background-color: #78866b;
-}
-
-#purple-mode{
-	background-color: #7E4C74;
-}
-
-#settings-note{
-	font-size: 11px;
-	font-style: italic;
-	text-align: center;
 }
 
 .right-column{
@@ -319,7 +281,7 @@ h6 { font-size: 16px;}
 .post-wrapper{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 320px);
-	gap:20px;
+	gap:30px;
 	justify-content: center;
 	padding-bottom: 50px;
 }
@@ -340,17 +302,18 @@ h6 { font-size: 16px;}
 }
 
 .post-preview{
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.1);
 	padding:15px;
 }
 
 .post-title{
-	color:black;
+  color: var(--titleColor);
 	margin: 0;
+  text-align: center;
 }
 
 .post-intro{
-	color:#4b5156;
+	color:var(--introColor);
 	font-size: 14px;
 }
 
@@ -368,7 +331,7 @@ h6 { font-size: 16px;}
     text-decoration: none; 
 			display: block; 
 			padding: 8px;
-			background: #46b3ad; 
+			background: var(--viewsiteBg); 
 			border-radius: 20px; 
 			color: white; 
 			text-align: center;
@@ -382,8 +345,8 @@ h6 { font-size: 16px;}
 .viewsite:hover{
 	  transform: scale(1.1); /* (% of zoom */
 
-    transform: scale(1.1);
-    background-color:green;
+    /* transform: scale(1.1); */
+    background-color:var(--viewsiteBgHover);
 }
 
 #contact-form{
@@ -467,9 +430,3 @@ h6 { font-size: 16px;}
 	}
 
 }
-
-
-
-
-
-

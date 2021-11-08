@@ -3,16 +3,16 @@
 * {
 	box-sizing: border-box;
 }
-
+/* 
 html,body {
 	padding: 0;
 	margin: 0;
 	scroll-behavior: smooth;
-}
-
+} */
+/* 
 body *{
 	transition: 0.3s;
-}
+} */
 
 body.dark {
 	--mainColor:#080808;
@@ -30,6 +30,11 @@ body.dark {
 
 
 	--buttonColor:#46b3ad;
+  --titleColor: rgb(171, 241, 218);
+  --introColor: #a1a2a3;
+  --darkmode: mediumaquamarine;
+  --viewsiteBg: #498f8c;
+  --viewsiteBgHover: rgb(67, 67, 121);
 }
 
 .checkbox {
