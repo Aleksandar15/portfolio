@@ -32,7 +32,7 @@ body.dark {
 	--buttonColor:#46b3ad;
   --titleColor: rgb(171, 241, 218);
   --introColor: #a1a2a3;
-  --darkmode: mediumaquamarine;
+  --darkmode: rgb(162, 197, 185);
   --viewsiteBg: #498f8c;
   --viewsiteBgHover: rgb(67, 67, 121);
 }
