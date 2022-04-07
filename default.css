@@ -267,6 +267,23 @@ h6 { font-size: 16px;}
 	background-color: var(--previewShadow);
 }
 
+#medium-skills {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--previewShadow);
+}
+
+#skill-name {
+  display: flex;
+  justify-content: space-around;
+}
+#medium-skill-name {
+  display: flex;
+  justify-content: space-around;
+  text-indent: 40px;
+  /* margin-left: 40px; */
+}
+
 #typescript{
   color: var(--secondaryText);
 }
